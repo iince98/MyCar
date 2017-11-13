@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#dd8aec</color>
+    <color name="girisrengi">#cfbad2</color>
+    <color name="splashrengi">#c1fcbb</color>
+
+
+</resources>

@@ -6,34 +6,32 @@
     android:layout_height="wrap_content"
     android:background="@color/girisrengi">
 
-
-
-
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:columnCount="2">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-
-        <ImageButton
-            android:id="@+id/aracbakimtavsiye"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:layout_gravity="center"
-
-            android:background="@drawable/bakimtavsiye"></ImageButton>
-
-
-    </GridLayout>
-
     <LinearLayout
+        android:id="@+id/lnly"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Araç Modeli:"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Model Yılı:"
+            android:textSize="30dp"
+            />
 
     </LinearLayout>
 </RelativeLayout>

@@ -3,13 +3,9 @@ package com.example.iince98.mycar;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.os.HandlerThread;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 /**
@@ -22,11 +18,12 @@ public class Giris extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.giris);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        ImageButton aracbakim= (ImageButton) findViewById(R.id.aracbakim);
 
-        //Animation myanimation= AnimationUtils.loadAnimation(this, R.anim.gecis);
-        //aracbakim.startAnimation(myanimation);
+        /**
+        Animation myanimation= AnimationUtils.loadAnimation(this, R.anim.gecis);
+        aracbakim.startAnimation(myanimation);
 
         Thread zamanlayıcı= new Thread() {
 
@@ -43,6 +40,41 @@ public class Giris extends AppCompatActivity {
             }
         };
         zamanlayıcı.start();
+         */
+
+        Button aracbakımbilgi= (Button) findViewById(R.id.bkm_bilgi);
+        Button aracbakımesas= (Button) findViewById(R.id.bkm_esas);
+        Button aracyedekparca= (Button) findViewById(R.id.yedekparca);
+        Button aracbakımtavsiye= (Button) findViewById(R.id.bkm_tavsiye);
+
+        aracbakımbilgi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startActivityIntent = new Intent(getApplicationContext(), Arac_bilgi.class);
+                startActivity(startActivityIntent);
+            }
+        });
+
+        aracbakımesas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        aracyedekparca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        aracbakımtavsiye.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
 
     }

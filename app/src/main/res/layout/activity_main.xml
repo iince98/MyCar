@@ -2,55 +2,38 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <Button
+        android:id="@+id/bkm_esas"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@color/beyaz"
+        android:drawableTop="@drawable/aracbakim"
+        android:text="@string/giris_sür"
+        android:textSize="50dp"></Button>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:text="Faruk Usta ile
+            Güvenle..."
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
 
 
 
-
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:columnCount="2">
-
-        <ImageButton
-            android:id="@+id/aracbakim"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:layout_gravity="center"
-            android:background="@drawable/aracbakim"></ImageButton>
-
-        <ImageButton
-            android:id="@+id/aracbakımesaslari"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:layout_gravity="center"
-            android:background="@drawable/aracbakimesaslari"></ImageButton>
-
-
-        <ImageButton
-            android:id="@+id/yedekparca"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:layout_gravity="center"
-            android:background="@drawable/yedekparca1"></ImageButton>
-
-
-        <ImageButton
-            android:id="@+id/aracbakimtavsiye"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:layout_gravity="center"
-
-            android:background="@drawable/bakimtavsiye"></ImageButton>
-
-
-    </GridLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-    </LinearLayout>
 </RelativeLayout>

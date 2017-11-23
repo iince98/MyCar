@@ -2,21 +2,54 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center">
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
 
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="81dp"
-            app:srcCompat="@drawable/aracbakim" />
+<Button
+    android:id="@+id/bkm_bilgi"
+    android:layout_width="200dp"
+    android:layout_height="230dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:drawableTop="@drawable/aracbakim"
+    android:background="@color/beyaz"
+    android:text="@string/bkm_bilgileri"
+    android:textSize="20dp">
+</Button>
 
 
+    <Button
+        android:id="@+id/bkm_esas"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/beyaz"
+        android:drawableTop="@drawable/aracbakimesaslari"
+        android:text="@string/bkm_esasları"
+        android:textSize="20dp"></Button>
 
+    <Button
+        android:id="@+id/yedekparca"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginLeft="10dp"
+        android:drawableTop="@drawable/yedekparca"
+        android:background="@color/beyaz"
+        android:text="@string/yedekparca"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/bkm_tavsiye"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginLeft="200dp"
+        android:background="@color/beyaz"
+        android:drawableTop="@drawable/bakimtavsiye"
+        android:text="@string/bkm_tavsiye"
+        android:textSize="20dp"></Button>
 </RelativeLayout>

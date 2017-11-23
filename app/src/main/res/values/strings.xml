@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Car</string>
+    <string name="bkm_tavsiye">Maintenance Advice</string>
+    <string name="yedekparca">Spare Parts</string>
+    <string name="bkm_esasları">Maintenance Essentials</string>
+    <string name="bkm_bilgileri">Car Info</string>
+    <string name="giris_sür">Drive</string>
+
 </resources>

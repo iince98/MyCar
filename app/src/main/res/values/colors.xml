@@ -3,8 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#dd8aec</color>
-    <color name="girisrengi">#cfbad2</color>
+    <color name="girisrengi">#ecd6ef</color>
     <color name="splashrengi">#c1fcbb</color>
+    <color name="beyaz">#fdfdfd</color>
 
 
 </resources>

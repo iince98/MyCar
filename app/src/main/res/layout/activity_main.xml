@@ -33,7 +33,7 @@
             android:layout_width="180dp"
             android:layout_height="180dp"
             android:layout_gravity="center"
-            android:background="@drawable/yedekparca"></ImageButton>
+            android:background="@drawable/yedekparca1"></ImageButton>
 
 
         <ImageButton

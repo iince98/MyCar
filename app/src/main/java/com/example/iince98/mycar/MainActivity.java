@@ -21,18 +21,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
 
         ImageButton aracbakımbilgi= (ImageButton) findViewById(R.id.aracbakim);
         ImageButton aracbakımesas= (ImageButton) findViewById(R.id.aracbakımesaslari);
         ImageButton aracyedekparca= (ImageButton) findViewById(R.id.yedekparca);
         ImageButton aracbakımtavsiye= (ImageButton) findViewById(R.id.aracbakimtavsiye);
-
-
-
-
 
         aracbakımbilgi.setOnClickListener(new View.OnClickListener() {
             @Override

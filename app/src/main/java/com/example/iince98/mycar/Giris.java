@@ -25,8 +25,8 @@ public class Giris extends AppCompatActivity {
 
         ImageButton aracbakim= (ImageButton) findViewById(R.id.aracbakim);
 
-        Animation myanimation= AnimationUtils.loadAnimation(this, R.anim.gecis);
-        aracbakim.startAnimation(myanimation);
+        //Animation myanimation= AnimationUtils.loadAnimation(this, R.anim.gecis);
+        //aracbakim.startAnimation(myanimation);
 
         Thread zamanlayıcı= new Thread() {
 

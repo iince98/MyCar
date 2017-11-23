@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سيارتي</string>
+    <string name="bkm_tavsiye">نصيحة الصيانة</string>
+    <string name="yedekparca">قطعة منفصلة</string>
+    <string name="bkm_esasları">أساسيات الصيانة</string>
+    <string name="bkm_bilgileri">معلومات السيارة</string>
+    <string name="giris_sür">قيادة</string>
+</resources>

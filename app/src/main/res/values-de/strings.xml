@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mein Auto</string>
+    <string name="giris_sür">Fahr</string>
+    <string name="bkm_tavsiye">Wartungshinweise</string>
+    <string name="yedekparca">Ersatzteile</string>
+    <string name="bkm_esasları">Wartungsgrundlagen</string>
+    <string name="bkm_bilgileri">"Auto Info "</string>
+</resources>

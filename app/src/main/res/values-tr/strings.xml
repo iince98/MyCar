@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arabam</string>
+    <string name="bkm_tavsiye">Bakım Tavsiyeleri</string>
+    <string name="yedekparca">Yedek Parça Durumu</string>
+    <string name="bkm_esasları">Araç Bakım Esasları</string>
+    <string name="bkm_bilgileri">Araç Bakım Bilgileri</string>
+    <string name="giris_sür">Sür</string>
+</resources>

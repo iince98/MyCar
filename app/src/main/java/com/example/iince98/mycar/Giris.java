@@ -58,7 +58,8 @@ public class Giris extends AppCompatActivity {
         aracbakımesas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent startActivityIntent = new Intent(getApplicationContext(), Bakim_esas.class);
+                startActivity(startActivityIntent);
             }
         });
 

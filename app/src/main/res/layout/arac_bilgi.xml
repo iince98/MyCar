@@ -20,7 +20,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Araç Modeli:"
-            android:textSize="30dp"
+            android:textSize="20dp"
             />
 
         <EditText
@@ -28,10 +28,83 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:text="Model Yılı:"
-            android:textSize="30dp"
+            android:textSize="20dp"
             />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Yağ Değişim km:"
+            android:textSize="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Hava Filtresi Değişim km:"
+            android:textSize="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Polen Filtresi Değişim km:"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Akü Değişim Tarihi:"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Lastik Değişim Tarihi:"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Fren Hidrolik Kontrol Tarihi:"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:text="Direksiyon Hidrolik Kontrol Tarihi:"
+            android:textSize="20dp"
+            />
+
 
     </LinearLayout>
 </RelativeLayout>

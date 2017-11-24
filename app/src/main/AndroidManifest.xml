@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".Giris" />
         <activity android:name=".Arac_bilgi" />
+        <activity android:name=".Bakim_esas" />
+
     </application>
 
 </manifest>
